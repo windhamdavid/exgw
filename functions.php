@@ -28,3 +28,16 @@ function exgw_editor() {
     //add_editor_style( 'style.css' );
 }
 add_action( 'init', 'exgw_editor' );
+
+function exgw_main_nav() {
+    wp_nav_menu( 
+    	array( 
+    		'menu' => 'main_nav',
+    		'menu_class' => 'nav navbar-nav',
+    		'theme_location' => 'main_nav',
+    		'container' => 'false',
+    		'fallback_cb' => 'wp_bootstrap_main_nav_fallback',
+    		'depth' => '2', 
+    	)
+    );
+}
