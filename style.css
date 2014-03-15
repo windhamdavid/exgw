@@ -1,3 +1,5 @@
+/* @override http://macs.local/exgw/wp-content/themes/exgw/style.css */
+
 /*
 Theme Name: Exceptional Greenwood
 Theme URI: https://exceptionalgreenwood.org
@@ -7,7 +9,9 @@ Description: pretty good
 
 	/* Thanks! 
 		http://meyerweb.com/eric/tools/css/reset/ - Eric Myer
-		http://html5boilerplate.com/ - HTML5 ✰ Boilerplate - Paul Irish
+		http://html5boilerplate.com/ - HTML5 Boilerplate - Paul Irish
+		https://github.com/twbs/bootstrap Bootstrap - @mdo and @fat.
+		https://github.com/twittem/wp-bootstrap-navwalker - Walker - Edward McIntyre
 		https://github.com/Automattic/_s - Automattic
 		http://www.google.com/webfonts/specimen/Josefin+Sans - Santiago Orozco
 		http://dimsemenov.com/plugins/magnific-popup/ - Dmitry Semenov
@@ -18,4 +22,37 @@ Description: pretty good
 	Reset | Typography | Color | Stucture [header/content/footer] | Grid | @media [480/1024/1920) | @print
 */
 
+/*##################  COLOR  #################### */
 
+
+/*##################  TYPOGRAPHY #################### */
+
+
+/*##################  STRUCTURE #################### */
+
+
+/*##################  NAVIGATION #################### */
+
+.navbar-header {
+	margin: 0 70px 0 0;
+}
+
+/*##################  CONTENT  #################### */
+
+
+/*##################  COMMENTS  #################### */
+
+
+/*##################  SOCIAL  #################### */
+
+
+/*##################  FORMS  #################### */
+
+
+/*##################  GALLERY #################### */
+
+
+/*##################  FOOTER  #################### */
+
+
+/*##################  PRINT  #################### */
