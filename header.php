@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><?php exgw_page_title();?></title>
 <?php wp_head(); ?>
 </head>
