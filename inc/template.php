@@ -1,6 +1,6 @@
 <?php
 
-if ( ! function_exists( 'dw_page_title') ) :
+if ( ! function_exists( 'exgw_page_title') ) :
 function exgw_page_title() {
 	global $page, $paged; 
 	wp_title( '|', true, 'right' ); 
@@ -8,6 +8,6 @@ function exgw_page_title() {
 		if ( $site_description && ( is_home() || is_front_page() ) )
 			echo " | $site_description";
 		if ( $paged >= 2 || $page >= 2 )
-			echo ' | ' . sprintf( __( 'Page %s', 'dw' ), max( $paged, $page ) );
+			echo ' | ' . sprintf( __( 'Page %s', 'exgw' ), max( $paged, $page ) );
 }
 endif;
